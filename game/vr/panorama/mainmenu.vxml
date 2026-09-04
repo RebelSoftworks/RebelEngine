@@ -1,0 +1,22 @@
+<Panel id="MainMenu">
+
+    <Label
+        id="Title"
+        text="RETURN TO RAVENHOLM" />
+
+    <Button
+        id="PlayButton"
+        text="PLAY"
+        action="play" />
+
+    <Button
+        id="OptionsButton"
+        text="OPTIONS"
+        action="options" />
+
+    <Button
+        id="QuitButton"
+        text="QUIT"
+        action="quit" />
+
+</Panel>

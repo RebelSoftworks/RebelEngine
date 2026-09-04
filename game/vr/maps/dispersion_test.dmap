@@ -1,0 +1,31 @@
+DispersionMap
+{
+    version "1"
+
+    world
+    {
+        name "test_map"
+
+        material "dev/gray"
+
+        vertices
+        {
+            v 0 0 0
+            v 256 0 0
+            v 256 256 0
+            v 0 256 0
+        }
+
+        indices
+        {
+            i 0 1 2
+            i 0 2 3
+        }
+    }
+
+    entity
+    {
+        classname "light"
+        origin "128 128 128"
+    }
+}

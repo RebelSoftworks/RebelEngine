@@ -1,0 +1,17 @@
+<Panel id="CampaignMenu">
+
+    <Label
+        id="Title"
+        text="RETURN TO RAVENHOLM - CHAPTER SELECT" />
+
+    <Button
+        id="rtr_uc_01"
+        text="CHAPTER 1 - UNWELCOME COMPANY"
+        action="play" />
+
+    <Button
+        id="QuitButton"
+        text="QUIT"
+        action="quit" />
+
+</Panel>
